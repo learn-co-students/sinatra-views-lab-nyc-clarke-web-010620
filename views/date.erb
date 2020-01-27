@@ -1,0 +1,9 @@
+<html>
+    <body>
+        <h1>Today</h1>
+        <% date = Date.today %>
+        <% combo = date.strftime("%B %d, %Y") %>
+        <% wday = date.strftime("%A") %>
+        <p> <%= "The date is #{wday}, #{combo}" %> </p>
+    </body>
+</html>
